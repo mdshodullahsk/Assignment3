@@ -40,14 +40,17 @@ nav h2 {
     width: 50%;
 }
 .half img {
-    width: 100%;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* width: 100%; */
 }
 .half h1 {
     margin: 0%;
     font-size: 50px;
 }
 #start-marg {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .half p {
     padding-right: 100px;
