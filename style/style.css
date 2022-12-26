@@ -130,6 +130,9 @@ hr {
     display: flex;
 }
 .half-our {
+    margin-top: 50px;
+}
+.half-our {
     width: 50%;
 }
 .half-our img {
