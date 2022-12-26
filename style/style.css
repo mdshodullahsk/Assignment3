@@ -69,7 +69,8 @@ nav h2 {
     border: 1px solid blue;
 }
 .hover-jak:hover {
-    transform: translateY(0) scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
 }
 
 /* Section two brand */
@@ -83,7 +84,6 @@ hr {
 }
 #brand-logo {
     display: flex;
-    /* margin-top: 50px; */
 }
 .brand {
     margin-right: 20px;
@@ -103,12 +103,14 @@ hr {
 .division-third {
     width: 33.33%;
     margin: 10px 15px;
-    /* margin-right: 15px;
-    margin-left: 15px; */
 }
 .product-img {
     width: 100%;
 }
+/* star rating  */
+.checked {
+    color: orange;
+  }
 #see-more {
     display: block;
     text-align: right;
